@@ -1,11 +1,12 @@
 {
-	"name": "@hensod/HttpClient",
+	"name": "@hensod/http-client",
 	"version": "1.0.0",
 	"description": "",
 	"main": "build/HttpClient.js",
 	"types": "build/HttpClient.d.ts",
 	"scripts": {
-		"test": "jest"
+		"dev": "tsc -w",
+		"build": "tsc"
 	},
 	"keywords": [],
 	"author": "Henric Söderlind <henrik.soderlind@live.se>",
